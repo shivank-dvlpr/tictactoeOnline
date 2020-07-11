@@ -1,5 +1,5 @@
 # tictactoeOnline
 Gradient Look , Messy Code (Online TicTacToe)
-![Settings Window](https://raw.githubusercontent.com/shivank-dvlpr/tictactoeOnline/master/Screenshot_20200711-201536.png "Screenshot of App")
+![Alt text](https://github.com/shivank-dvlpr/tictactoeOnline/blob/master/Screenshot_20200711-201536.png?raw=true "Screenshot of App")
 
 
