@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="Enter user ID"
+                android:id="@+id/edtInviteAccept"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/btnInvite"
+                android:text="Invite"
+                android:onClick="btnInvite"
+                android:background="@drawable/bt"
+                android:textSize="15sp"
+                android:padding="3dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Accept"
+                android:onClick="btnAccept"
+                android:padding="3dp"
+                android:id="@+id/btnAccept"
+                android:background="@drawable/bt"
+                android:layout_margin="10dp"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="Enter New ID"
+                android:textSize="15sp"
+                android:id="@+id/edtLogin"
+                android:inputType="textEmailAddress"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Login"
+                android:id="@+id/btnLogin"
+                android:onClick="btnLogin"
+                android:textSize="15sp"
+                android:padding="3dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bt"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSymbol"
+            android:text=""
+            android:textColor="#fff"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="129dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center|center_horizontal">
+
+        <TableRow
+            android:id="@+id/tab1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:onClick="btnClick"
+                android:elevation="80dp"
+                android:background="@drawable/bt"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:background="@drawable/bt"
+                android:layout_margin="5dp"
+                android:elevation="80dp"
+                android:onClick="btnClick"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:elevation="80dp"
+                android:onClick="btnClick"
+                android:background="@drawable/bt"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="50pt"
+                android:background="@drawable/bt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:onClick="btnClick"
+                android:padding="15dp"
+                android:elevation="80dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:background="@drawable/bt"
+                android:layout_margin="5dp"
+                android:elevation="80dp"
+                android:onClick="btnClick"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:elevation="80dp"
+                android:onClick="btnClick"
+                android:background="@drawable/bt"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:background="@drawable/bt"
+                android:elevation="80dp"
+                android:onClick="btnClick"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:background="@drawable/bt"
+                android:elevation="80dp"
+                android:layout_margin="5dp"
+                android:onClick="btnClick"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:background="@drawable/bt"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:elevation="80dp"
+                android:onClick="btnClick"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="20sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/bt"
+        android:padding="5dp"
+        android:text="Reset"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

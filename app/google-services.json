@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "430052645700",
+    "firebase_url": "https://app71pushnotifications-b07d8.firebaseio.com",
+    "project_id": "app71pushnotifications-b07d8",
+    "storage_bucket": "app71pushnotifications-b07d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430052645700:android:bf80122a6211b6ba",
+        "android_client_info": {
+          "package_name": "app.taskmanagement.com.tictactoedevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430052645700-04se26feaofmsegbske7par3m3ocmkre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.taskmanagement.com.tictactoedevice",
+            "certificate_hash": "b77331970be08b545ccfa211201b684ea45d599e"
+          }
+        },
+        {
+          "client_id": "430052645700-m4f6a096kdfpsbga3k4ub8vk6enj8udm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDTgY2cfDVjDC6aYGZqYn_o6QIrVLm8DI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430052645700-m4f6a096kdfpsbga3k4ub8vk6enj8udm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430052645700:android:b2a5160b0a879e9d",
+        "android_client_info": {
+          "package_name": "com.application.shivank.app71_push_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430052645700-tkgqlq264rgt4beetpilrc8qv6jmv1oa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.shivank.app71_push_notifications",
+            "certificate_hash": "b77331970be08b545ccfa211201b684ea45d599e"
+          }
+        },
+        {
+          "client_id": "430052645700-m4f6a096kdfpsbga3k4ub8vk6enj8udm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDTgY2cfDVjDC6aYGZqYn_o6QIrVLm8DI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430052645700-m4f6a096kdfpsbga3k4ub8vk6enj8udm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

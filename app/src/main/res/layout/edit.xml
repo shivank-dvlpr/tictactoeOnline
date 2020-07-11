@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtName1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Player 1 Name                X  "
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Player 2 Name                0  "
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:id="@+id/edtName2"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btnPlay"
+        />
+
+
+</LinearLayout>
